@@ -27,7 +27,6 @@ export default function UploadProducts() {
       const response = await axios.post('/api/products/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
-          'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NfdG9rZW4iOiJzaHB1YV85ZThiYjBlNjQ4YmJhZjJiZDAwMzY2N2U0NTg0YTdjYiIsImlhdCI6MTcxMzAwMDczN30.oiP6sRSUM_oO_H980gYUjECG_azXzUcJp8f7HLu40oE'
         }
       });
       setUploadStatus('Upload successful!');
