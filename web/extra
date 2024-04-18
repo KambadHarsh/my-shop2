@@ -1,0 +1,15 @@
+  // useEffect(async()=>{
+  //   try{
+  //     let request = await fetch("/api/products/info", {
+  //       method :"GET",
+  //       headers: {"content-type": "application/json"},
+  //     })  
+  //     let response = await request.json();
+  //     console.log(response);
+  //     setData(response);
+  //     return response;
+
+      // let result={
+      //   id : response.data[0].id,
+      //   headers: response.headers
+      // }

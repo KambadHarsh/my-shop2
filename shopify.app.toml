@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "76364accc71da88aaa709bb88c1b3a61"
+name = "my-shop"
+application_url = "https://gazette-sets-diameter-tracker.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-956d2e42.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products"
+
+[auth]
+redirect_urls = [
+  "https://gazette-sets-diameter-tracker.trycloudflare.com/auth/callback",
+  "https://gazette-sets-diameter-tracker.trycloudflare.com/auth/shopify/callback",
+  "https://gazette-sets-diameter-tracker.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false

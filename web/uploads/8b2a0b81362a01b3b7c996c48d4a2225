@@ -1,0 +1,2 @@
+title,body_html,vendor,product_type,created_at,handle,updated_at,published_at,template_suffix,published_scope,tags,status
+test demo file,This file is uploaed via csv,My-shop,T-shirt,2024-03-22T06:55:11-04:00,copy-of-white-tshirt,2024-03-22T07:25:54-04:00,2024-03-22T07:25:52-04:00,,global,"cotton, Premium, Sport, summer",active
